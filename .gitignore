@@ -7,7 +7,6 @@ reated by https://www.gitignore.io
 .mtj.tmp/
 
 # Package Files #
-*.jar
 *.war
 *.ear
 
