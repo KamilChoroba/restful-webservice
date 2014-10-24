@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="choroba.example.rest.TestService" tests="2" skipped="0" failures="0" errors="0" timestamp="2014-10-24T09:55:02" hostname="kamil-CELSIUS-W410" time="0.421">
-  <properties/>
-  <testcase name="testGetPing" classname="choroba.example.rest.TestService" time="0.371"/>
-  <testcase name="testGetUser" classname="choroba.example.rest.TestService" time="0.05"/>
-  <system-out><![CDATA[]]></system-out>
-  <system-err><![CDATA[]]></system-err>
-</testsuite>
