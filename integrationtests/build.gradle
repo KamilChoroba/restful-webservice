@@ -1,0 +1,4 @@
+dependencies {
+    compile 'choroba.example.rest.client:webservice-client:LOCAL'
+    testCompile 'junit:junit:4.11'
+}

@@ -1,0 +1,48 @@
+apply plugin: 'war'
+apply plugin: 'com.bmuschko.cargo'
+
+cargo {
+  containerId = 'tomcat7x'
+  port = 8080
+  
+  remote {
+    hostname = '127.0.0.1'
+    username = 'admin'
+    password = 'secret'
+  }
+
+  deployable {
+    file = file('build/libs/service.war')
+    context = 'restful-service'
+  }
+}
+
+buildscript {
+  repositories {
+    mavenCentral()
+    maven { url "http://download.java.net/maven/2" }
+    maven { url 'http://repo.spring.io/plugins-release' }
+  }
+  
+  dependencies {
+    classpath 'com.bmuschko:gradle-cargo-plugin:2.0.1'
+  }
+}
+
+dependencies {
+
+	def springVersion = '4.1.1.RELEASE'
+	
+	compile "org.springframework:spring-core:$springVersion"
+	compile "org.springframework:spring-web:$springVersion"
+	compile "org.springframework:spring-webmvc:$springVersion"
+    compile 'com.jayway.jsonpath:json-path:0.8.1'
+    compile 'javax.servlet:javax.servlet-api:3.0.1'
+
+    runtime 'com.fasterxml.jackson.core:jackson-core:2.2.2'
+    runtime 'com.fasterxml.jackson.core:jackson-databind:2.2.2'
+    runtime 'javax.xml.bind:jaxb-api:2.2.9'
+    
+    testCompile 'junit:junit:4.11'
+    testCompile 'org.mockito:mockito-all:1.10.8'
+}

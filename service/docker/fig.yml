@@ -1,0 +1,6 @@
+tomcat7:
+        image: tutum/tomcat:latest
+        ports:
+                - "8080"
+        environment:
+                TOMCAT_PASS: secret

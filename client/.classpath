@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="output" path="bin"/>
+	<classpathentry kind="src" path="src/main/java"/>
+	<classpathentry kind="src" path="src/main/resources"/>
+	<classpathentry kind="src" path="src/test/java"/>
+	<classpathentry kind="src" path="src/test/resources"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER" exported="true"/>
+	<classpathentry kind="lib" path="/home/kamil/.m2/repository/javax/ws/rs/javax.ws.rs-api/2.0.1/javax.ws.rs-api-2.0.1.jar" exported="true"/>
+	<classpathentry sourcepath="/home/kamil/.gradle/caches/modules-2/files-2.1/org.glassfish.jersey.containers/jersey-container-servlet/2.13/c3bab5abec4352e2b9f9489f8e5fb8be4da8bd0/jersey-container-servlet-2.13-sources.jar" kind="lib" path="/home/kamil/.gradle/caches/modules-2/files-2.1/org.glassfish.jersey.containers/jersey-container-servlet/2.13/3f292f3209db49df3d719324aa426032328901cd/jersey-container-servlet-2.13.jar" exported="true"/>
+	<classpathentry kind="lib" path="/home/kamil/.m2/repository/org/glassfish/jersey/core/jersey-client/2.13/jersey-client-2.13.jar" exported="true"/>
+	<classpathentry sourcepath="/home/kamil/.gradle/caches/modules-2/files-2.1/org.glassfish.jersey.containers/jersey-container-servlet-core/2.13/fd5c6f29769610d1f96b5364f786416875039dcf/jersey-container-servlet-core-2.13-sources.jar" kind="lib" path="/home/kamil/.gradle/caches/modules-2/files-2.1/org.glassfish.jersey.containers/jersey-container-servlet-core/2.13/9db905465992471255c9428ac8bc165652611365/jersey-container-servlet-core-2.13.jar" exported="true"/>
+	<classpathentry kind="lib" path="/home/kamil/.m2/repository/org/glassfish/jersey/core/jersey-common/2.13/jersey-common-2.13.jar" exported="true"/>
+	<classpathentry kind="lib" path="/home/kamil/.m2/repository/org/glassfish/jersey/core/jersey-server/2.13/jersey-server-2.13.jar" exported="true"/>
+	<classpathentry kind="lib" path="/home/kamil/.m2/repository/org/glassfish/hk2/hk2-api/2.3.0-b10/hk2-api-2.3.0-b10.jar" exported="true"/>
+	<classpathentry kind="lib" path="/home/kamil/.m2/repository/org/glassfish/hk2/external/javax.inject/2.3.0-b10/javax.inject-2.3.0-b10.jar" exported="true"/>
+	<classpathentry kind="lib" path="/home/kamil/.m2/repository/org/glassfish/hk2/hk2-locator/2.3.0-b10/hk2-locator-2.3.0-b10.jar" exported="true"/>
+	<classpathentry kind="lib" path="/home/kamil/.m2/repository/javax/annotation/javax.annotation-api/1.2/javax.annotation-api-1.2.jar" exported="true"/>
+	<classpathentry kind="lib" path="/home/kamil/.m2/repository/org/glassfish/jersey/bundles/repackaged/jersey-guava/2.13/jersey-guava-2.13.jar" exported="true"/>
+	<classpathentry kind="lib" path="/home/kamil/.m2/repository/org/glassfish/hk2/osgi-resource-locator/1.0.1/osgi-resource-locator-1.0.1.jar" exported="true"/>
+	<classpathentry kind="lib" path="/home/kamil/.m2/repository/javax/validation/validation-api/1.1.0.Final/validation-api-1.1.0.Final.jar" exported="true"/>
+	<classpathentry kind="lib" path="/home/kamil/.m2/repository/org/glassfish/hk2/hk2-utils/2.3.0-b10/hk2-utils-2.3.0-b10.jar" exported="true"/>
+	<classpathentry kind="lib" path="/home/kamil/.m2/repository/org/glassfish/hk2/external/aopalliance-repackaged/2.3.0-b10/aopalliance-repackaged-2.3.0-b10.jar" exported="true"/>
+	<classpathentry kind="lib" path="/home/kamil/.m2/repository/org/javassist/javassist/3.18.1-GA/javassist-3.18.1-GA.jar" exported="true"/>
+	<classpathentry kind="lib" path="/home/kamil/.m2/repository/javax/inject/javax.inject/1/javax.inject-1.jar" exported="true"/>
+</classpath>
